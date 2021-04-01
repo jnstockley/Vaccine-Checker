@@ -27,8 +27,7 @@ The command to run the program is java -jar VaccineChecker.jar conf.json msedged
 The recommended way to run this program automatically is by creating a crontab. On Linux type `crontab -e` to edit your local crontab. I would recommend having the program run every 2 minutes. Crontab syntax for every two minutes is `*/2 * * * *` then the command. Make sure you pass the full file path for the config file and the web driver. If you need help with the crontab syntax I recommend this [website](https://crontab.guru/)
 
 # Special Thanks
-Special thanks to the covid vaccine spotter GitHub project for making this possible. Please check them out [here](https://github.com/GUI/covid-vaccine-spotter)
-[@GUI](https://github.com/GUI/covid-vaccine-spotter)
+Special thanks to the covid vaccine spotter GitHub project for making this possible. Please check them out [@GUI](https://github.com/GUI/covid-vaccine-spotter)
 
 # Questions, Concerns, Feedback?
 Any questions, comments, concerns, feedback, or improvements are appreciated. Add an issue and I will determine how to accommodate any feedback or improvements.
