@@ -28,7 +28,7 @@ The recommended way to run this program automatically is by creating a crontab. 
 
 # Special Thanks
 Special thanks to the covid vaccine spotter GitHub project for making this possible. Please check them out [here](https://github.com/GUI/covid-vaccine-spotter)
-@GUI
+[@GUI](https://github.com/GUI/covid-vaccine-spotter)
 
 # Questions, Concerns, Feedback?
 Any questions, comments, concerns, feedback, or improvements are appreciated. Add an issue and I will determine how to accommodate any feedback or improvements.
