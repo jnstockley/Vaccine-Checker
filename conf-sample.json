@@ -1,22 +1,21 @@
 {
-  "people": [{
-    "name": "*",
-    "emails": ["*"],
-    "state": "*",
-    "zipcode": "*",
-    "vaccine": "?",
-    "radius": 0,
-    "dose": "?"
-    }],
-],
-"email": {
-  "fromName": "*",
-  "fromEmail": "*",
-  "toName": "*",
-  "toEmail": "*",
-  "subject": "*",
-  "smtpServer": "*",
-  "smtpPort": "*",
-  "smtpPassword": "*"
-}
+	"people": [{
+		"name": "*",
+		"emails": ["*"],
+		"state": "*",
+		"zipcode": "*",
+		"vaccine": "?",
+		"radius": 0,
+		"dose": "?"
+	}],
+	"email": {
+		"fromName": "*",
+		"fromEmail": "*",
+		"toName": "*",
+		"toEmail": "*",
+		"subject": "*",
+		"smtpServer": "*",
+		"smtpPort": "*",
+		"smtpPassword": "*"
+	}
 }
