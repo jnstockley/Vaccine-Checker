@@ -2,7 +2,7 @@
 A simple java program that uses web scrapping technology to determine if a vaccine is available in your location and sends you an email.
 
 # Version 1.2
-Fixed a bug where emails would not send and combined setup and checker into a single java file and jar file. To run the setup, just pass the file path to the java program.
+Fixed a bug where emails would not send and combined setup and checker into a single java file and jar file. To run the setup, just pass the file path to the java program. Also, added the user's name to the email.
 
 # Version 1.1
 This version includes bug fixes, ability to includes date for when an vaccine needs to be scheduled, multiple email address for a person being checked, and config file updates. In order to use this new version with your current config file, please run vaccinecheckersetup and run the upgrade command. Please report any issues and bugs you encounter.
