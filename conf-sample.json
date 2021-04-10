@@ -1,9 +1,9 @@
 {
 	"people": [{
 		"name": "*",
-		"emails": ["*"],
 		"state": "*",
 		"zipcode": "*",
+		"emails": ["?"],
 		"vaccine": "?",
 		"radius": 0,
 		"dose": "?"
