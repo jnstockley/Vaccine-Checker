@@ -1,11 +1,14 @@
 # Vaccine-Checker
 A simple java program that uses web scrapping technology to determine if a vaccine is available in your location and sends you an email.
 
+# Version 1.5
+This version has great behind the scene improvements. It increases reliability and handles errors better. It also checks for valid data and gives appropriate error messages. This version also removes old dependencies and adds a Javadoc and comments to the source code. Click [here](https://jstockley.com/Vaccine-Checker/VaccineChecker.html) to view the Javadoc.
+
 # Version 1.2
 Fixed a bug where emails would not send and combined setup and checker into a single java file and jar file. To run the setup, just pass the file path to the java program. Also, added the user's name to the email.
 
 # Version 1.1
-This version includes bug fixes, ability to includes date for when an vaccine needs to be scheduled, multiple email address for a person being checked, and config file updates. In order to use this new version with your current config file, please run vaccinecheckersetup and run the upgrade command. Please report any issues and bugs you encounter.
+This version includes bug fixes, the ability to includes a date for when a vaccine needs to be scheduled, multiple email addresses for a person being checked, and config file updates. In order to use this new version with your current config file, please run the vaccine-checker set up and run the upgrade command. Please report any issues and bugs you encounter.
 
 # VaccineCheckerSetup
 This is a simple program which allows for easy adding, modifying, and removing of people and email address. This program is in beta and could result in data loss in the config file. Please backup your config file before using it. If you experience data loss, please report an issue and describe how the data loss occurred. The VaccineCheckerSetup jar file takes a single argument, the full path to the config file. Please make sure the file config file exists before running the program.
@@ -18,7 +21,7 @@ Any fields with a '*' are required and the program will not work if they are not
 Any other keys in the JSON file will be ignored but the program will run the same, as long as the conf file is valid.
 
 # Web Driver Set-Up
-This program uses Microsoft Edge Chromium to perform the web scraping. You will need to make sure Microsoft Edge Chromium is downloaded on your computer. To download it click [here](https://www.microsoft.com/en-us/edge). If you want to run this program on a Linux distribution, you will need to download the Insider Build of edge, which can be found [here](https://www.microsoftedgeinsider.com/en-us/download/)
+This program uses Microsoft Edge Chromium to perform web scraping. You will need to make sure Microsoft Edge Chromium is downloaded on your computer. To download it click [here](https://www.microsoft.com/en-us/edge). If you want to run this program on a Linux distribution, you will need to download the Insider Build of edge, which can be found [here](https://www.microsoftedgeinsider.com/en-us/download/)
 
 Once the web browser is installed you will need to download the selenium web driver for the exact version of your edge install. Click [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) to download the right version.
 
